@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Modak&family=Poppins:wght@100&display=swap');
+
+
+:root{
+  --mainBlue: #FA4A73; 
+  --lightBlue: #533A5D; 
+  --mainWhite: #ffffff;
+  --mainDark: #232528;
+  --mainYellow: #02083b;
+}
+
+body{
+  font-family: 'Poppins', sans-serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+  overflow-x: hidden !important;
+}
+
+.text-title{
+  font-family: 'Poppins', sans-serif !important;
+  letter-spacing: 0.1rem;  
+}
+
+.text-pink{
+  color: var(--mainBlue) !important;
+}
+
+.text-purple{
+  color: var(--lightBlue) !important;
+}
+.background-pink{
+  background: var(--mainBlue) !important;
+}
+.text-bright{
+  color: var(--lightBlue);
+}
+
+.btn-black{
+  background: transparent;
+  color: var(--mainBlue) !important;
+  border-radius: 0 !important;
+}
+/* .btn-black:hover{
+  background: var(--mainDark) !important;
+  color: var(--mainWhite) !important;
+} */
+.cart-icon{
+  cursor: pointer;
+  font-size: 0.8rem !important;
+  color: var(--lightBlue);
+}
+/* .cart-background:after{
+  content: " ";
+  background: url('../src/menuPagePhoto1.png') no-repeat center center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-size: contain;
+  opacity: 0.3;
+  z-index: -1;
+} */
+.item-background{
+  background: #F0F4F8;
+}
+.cart-columns-background{  
+  border-radius: 15px !important; 
+  box-shadow: 7px 6px 15px rgba(0,0,0,0.3);
+}
+.button-plus-minus{
+  color: var(--mainBlue) !important;
+  border: 0.1rem solid  var(--lightBlue) !important;
+  border-radius: 10px !important;
+  padding: 0px 15px !important;
+}
+.main-heading{
+  line-height: 4rem !important;
+  letter-spacing: 0.5px !important;
+}
+.small-text{
+  font-size: 0.9rem !important;
+}
+.menu-background{
+  background: url('./images/menuPageBackground.png') center center;
+  background-size: cover;
+}
+.cart-background{
+  background: url('./images/cartPageBackground.png') center center !important;
+  background-size: cover !important;
+}
+.img-shadow{
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+}
+input[type=email], input[type=password]{
+  border: 0.5px solid var(--mainBlue) !important;  
+}
+
+@media screen and (max-width: 768px){
+  body{
+    overflow-x: hidden !important;
+  }
+}
