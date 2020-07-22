@@ -1,5 +1,6 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
+import orderTaken from '../../images/orderTaken.png';
 
 function CartTotals({value}) {
     const {cartSubTotal, cartTax, cartTotal, clearCart} = value;
@@ -7,29 +8,39 @@ function CartTotals({value}) {
         <>
             <div className="container">
                 <div className="row">
-                    <div className="col-10 mt-2 mx-auto col-sm-8 text-capitalize text-center">
+                    <div className="col-10 mt-2 mx-auto col-sm-8 text-center">
                         <Link to='/products'>
-                            <button className="btn btn-outline-danger text-uppercase my-3 px-4 font-weight-bold" 
+                            <button className="btn btn-outline-danger my-3 px-4 font-weight-bold" 
                                     type="button"
                                     onClick={() => clearCart()}>
-                                clear cart
+                                Clear Cart
                             </button>
                         </Link>
-                        <h5>
-                            <h5 className="font-weight-bold text-purple">
-                                SubTotal: <span className="text-pink">&#8377;&nbsp;{cartSubTotal}</span> 
-                            </h5>
-                        </h5>
-                        <h5>
-                            <h5 className="font-weight-bold text-purple">
+                    </div>
+                    <div className="col-12 mt-2 col-sm-12 col-md-12 col-lg-12 text-center d-flex justify-content-between">
+                        <div className="font-weight-bold">
+                            <img src={orderTaken} alt=""/>
+                            &nbsp;&nbsp;Order Taken
+                        </div>
+                        <div>
+                            <p className="small-text text-muted font-weight-bold pb-0 mb-0">
+                                SubTotal:<span className="text-pink">&#8377;&nbsp;{cartSubTotal}</span>&nbsp;
                                 Tax: <span className="text-pink">&#8377;&nbsp;{cartTax}</span>
-                            </h5>
-                        </h5>
-                        <h5>
+                            </p>
                             <h5 className="font-weight-bold text-purple">
                                 CartTotal: <span className="text-pink">&#8377;&nbsp;{cartTotal}</span>
-                            </h5>
+                            </h5>                            
+                        </div>
+                        
+                        {/* <h5>
+                            
                         </h5>
+                        <h5>
+                            
+                        </h5>
+                        <h5>
+                            
+                        </h5> */}
                     </div>
                 </div>
             </div>   

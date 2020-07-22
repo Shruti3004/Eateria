@@ -2,19 +2,24 @@ import React, { useContext } from 'react';
 import styled from 'styled-components';
 import {Link} from 'react-router-dom';
 import { ProductContext } from '../context';
+import icon from '../images/cartIcon.png';
 import PropTypes from 'prop-types';
 
 
+
 function Product({product}) {
+    
     const {handleDetail, addToCart, openModal} = useContext(ProductContext);
+
+    
     return (
-        <ProductWrapper className = "col-12 mx-auto col-md-6 col-lg-4 my-3">
+        <ProductWrapper className = "col-12 mx-auto col-md-6 col-lg-4 mt-3 mb-4">
             <div className="card">
                 <div className="img-container" 
                 onClick = {() => {handleDetail(product.id)}}
                 >
                     {/* <Link to="/details"> */}
-                        <img src={product.img} className="card-img-top img-fluid"/>
+                        <img src={product.img} className="card-img-top img-fluid rounded"/>
                     {/* </Link> */}
                     {/* {console.log(product.id)} */}
                     <button className="card-btn btn" 
@@ -23,16 +28,22 @@ function Product({product}) {
                                         addToCart(product.id); 
                                         openModal(product.id)
                                         }}>
-                        {product.inCart? (<p className="text-capitalize mb-0" disabled>In cart</p>): (<i className="fas fa-cart-plus"/>)}
+                        {product.inCart? (<p className="text-capitalize mb-0" disabled>In cart</p>): (<img src={icon} className="img-fluid" alt="cart"/>)}
                     </button>
                 </div>
-                <div className="card-footer d-flex justify-content-between font-weight-bold">
-                    <p className="align-self-center mb-0 font-weight-bold text-purple">{product.title}</p>
-                    <h6 className=" mb-0">
-                        <span className="mr-1 font-weight-bold text-pink">
-                            &#8377; {product.price}
-                        </span>
-                    </h6>
+                <div className="card-footer">
+                    <div className="d-flex justify-content-between font-weight-bold mb-0 pb-0">
+                        <p className="align-self-center mb-0 pb-0 font-weight-bold text-purple">{product.title}<sup>&copy;</sup></p>
+                        <h6 className=" mb-0">
+                            <span className="mr-1 font-weight-bold pb-0 text-pink">
+                                &#8377; {product.price}
+                            </span>
+                        </h6>
+                    </div>
+                    <hr />
+                    <p className="text-muted delivery-time py-0 my-0">
+                        Expected Time: {product.time}
+                    </p>
                 </div>
             </div>
         </ProductWrapper>
@@ -46,7 +57,8 @@ Product.propTypes = {
             img: PropTypes.string,
             title: PropTypes.string,
             price: PropTypes.number,
-            inCart: PropTypes.bool
+            inCart: PropTypes.bool,
+            time: PropTypes.string
         }
     ).isRequired
 }
@@ -98,6 +110,18 @@ const ProductWrapper = styled.div `
     .card-btn:not(:active){
         color: var(--mainBlue);
         cursor: pointer;
+    }
+    hr{
+        padding: 0rem !important;
+        margin: 0rem !important;
+    }
+    .delivery-time{
+        font-size: 0.7rem;
+        padding: 0.1rem 0rem !important;
+        margin: 0rem !important;
+    }
+    .reg-size{
+        font-size: 1rem;
     }
     
 `

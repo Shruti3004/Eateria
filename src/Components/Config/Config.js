@@ -3,13 +3,13 @@ import 'firebase/auth';
 import 'firebase/firebase-firestore'
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAzYJlLKz5aN1SNSNVbRQgUi1fHwT9Fp1Q",
-    authDomain: "e-commerce-7aa18.firebaseapp.com",
-    databaseURL: "https://e-commerce-7aa18.firebaseio.com",
-    projectId: "e-commerce-7aa18",
-    storageBucket: "e-commerce-7aa18.appspot.com",
-    messagingSenderId: "57383414146",
-    appId: "1:57383414146:web:542f14adeaa45b56c5479b"
+	apiKey: "AIzaSyBMd_LaR3uJP5NpCPlNAlx7hl1fm21y9xM",
+    authDomain: "eateria-41ded.firebaseapp.com",
+    databaseURL: "https://eateria-41ded.firebaseio.com",
+    projectId: "eateria-41ded",
+    storageBucket: "eateria-41ded.appspot.com",
+    messagingSenderId: "613574223317",
+    appId: "1:613574223317:web:1f0d41b1ba451c8173c95c"
   };
 
 

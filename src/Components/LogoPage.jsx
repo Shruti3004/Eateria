@@ -7,7 +7,7 @@ import {Link} from 'react-router-dom';
 
 function LogoPage() {
     return (
-        <Link to="/products">
+        <Link to="/login">
             <LogoContainer>
                 <img src={logo} alt="" className="img-fluid"/>
                 {/* <img src={logoPlate} alt="" className="img-fluid logo-plate"/>

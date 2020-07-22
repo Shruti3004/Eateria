@@ -6,12 +6,12 @@ function CartItem({item,value}) {
     const {increment, decrement, removeItem} = value;
     return (
         <div>           
-            <div className="row mt-3 mb-2 text-center py-3">
+            <div className="row mb-1 text-center py-3 cart-item">
                 <div className="col-3 col-sm-3 col-md-3 col-lg-3 px-0 align-self-center">
                     <img src={img} 
                         style={{width:"6rem", height:"6rem" }} 
                         alt=""
-                        className="img-fluid rounded img-shadow"/><br />                        
+                        className="img-fluid rounded"/><br />                        
                 </div>
                 <div className="col-9 col-sm-9 col-md-9 col-lg-9 pr-0">
                     <CardContainer className="card card-header">
@@ -22,7 +22,7 @@ function CartItem({item,value}) {
                                     1 Pc
                                     <span className="text-pink font-weight-bold">
                                         &nbsp;&#8377;&nbsp;{price}
-                                    </span>     
+                                    </span>
                                     <div className="cart-icon" onClick={() => removeItem(id)}>
                                         <i className="fas fa-trash text-green"></i>
                                     </div>
@@ -42,12 +42,12 @@ function CartItem({item,value}) {
                                         Total: 
                                         <span className="text-pink font-weight-bold pt-0"> &#8377;&nbsp;{total}</span>
                                     </div>
-                                {/* {total} */}
+                                {/* {total} */}                               
                             </div>
-                        </div>                                
+                        </div>                         
                     </CardContainer>                    
-                </div>
-            </div>
+                </div>                
+            </div>            
         </div>                
             
     )
@@ -56,8 +56,7 @@ function CartItem({item,value}) {
 const CardContainer = styled.div`
     border-color: transparent !important;
     background: white !important; 
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
-    border-radius: 10px !important;
+    border-radius: 10px !important;    
 `
 
 export default CartItem

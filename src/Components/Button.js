@@ -10,7 +10,7 @@ border: 0.07rem solid var(--lightBlue);
 border-color: ${props => (props.cartBtn ? "var(--mainBlue)" : "var(--lightBlue)")};
 border-radius: 60px;
 color: ${prop => (prop.cartBtn ? "var(--mainBlue)" : "var(--lightBlue)")};
-padding: 0.2rem 0.7rem;
+padding: 0rem 0.7rem;
 cursor:pointer;
 margin: 0.2rem 0.5rem 0.2rem 0;
 transition: all 0.5s ease-in-out;
