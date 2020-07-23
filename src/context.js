@@ -82,7 +82,7 @@ export function ProductProvider({children}) {
         product.total = product.count * product.price;
         let subTotal = 0;
         tempCart.map(item => {
-            (subTotal += item.total)
+            return (subTotal += item.total)
         });
         const tempTax = subTotal * 0.1;
         const tax = parseFloat(tempTax.toFixed(2));
@@ -103,7 +103,7 @@ export function ProductProvider({children}) {
             product.total = product.count * product.price;
             let subTotal = 0;
             tempCart.map(item => {
-                (subTotal += item.total)
+                return (subTotal += item.total)
             });
             const tempTax = subTotal * 0.1;
             const tax = parseFloat(tempTax.toFixed(2));
@@ -124,7 +124,7 @@ export function ProductProvider({children}) {
         removedProduct.total = 0;
         let subTotal = 0;
         tempCart.map(item => {
-            (subTotal += item.total)
+            return (subTotal += item.total)
         });
         const tempTax = subTotal * 0.1;
         const tax = parseFloat(tempTax.toFixed(2));

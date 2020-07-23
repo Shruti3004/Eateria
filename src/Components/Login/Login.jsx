@@ -48,10 +48,6 @@ function Login(props) {
         }
     }
 
-    // const error = () => {
-    //     <ErrorModel />
-    // }
-
     return (
         <div className="sign-in">
         <div className="container">
@@ -79,12 +75,15 @@ function Login(props) {
                                 </div>
                             </div>
                             <div className="d-flex justify-content-end px-0 text-purple">
-                                <a onClick={handlePassword}>Forgot password?</a>
+                                <button onClick={handlePassword} className="btn text-purple">Forgot password?</button>
                             </div>
-                            <ButtonContainer className="background-pink w-100 mt-5" cartBtn><input type="submit" value="Login" className="text-white btn"/></ButtonContainer>
-                            {/* <p className="text-center mt-3">Don't have an Account?</p> */}
+                            <ButtonContainer className="background-pink w-100 mt-5 text-white" cartBtn>
+                                <input type="submit" value="Login" className="text-white btn"/>
+                            </ButtonContainer>                            
                             <Link to="/register">
-                                <ButtonContainer className="background-pink w-100 mt-2" cartBtn><button className="text-white btn">Register</button></ButtonContainer>
+                                <ButtonContainer className="background-pink w-100 mt-2 text-white" cartBtn>                                    
+                                    <input type="button" value="Register" className="text-white btn"/>
+                                </ButtonContainer>
                             </Link>
                         </form>
                     </div>

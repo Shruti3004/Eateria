@@ -81,15 +81,10 @@ body{
   opacity: 0.3;
   z-index: -1;
 } */
-.item-background{
-  background: #F0F4F8;
-}
-.cart-columns-background{  
-  border-radius: 15px !important;   
-}
+
 .button-plus-minus{
   color: var(--mainBlue) !important;
-  border: 0.1rem solid  var(--lightBlue) !important;
+  border: 0.08rem solid  var(--lightBlue) !important;
   border-radius: 10px !important;
   padding: 0px 15px !important;
 }
@@ -145,7 +140,12 @@ input[type=password], input[type=text]{
 }
 
 .cart-item{
-  border-bottom: 1.2px solid lightgrey;
+  border-bottom: 0.8px solid rgb(211, 208, 208);
+  /* border-radius: 15px !important; */
+}
+.pink-bg{
+  background: url('./images/pinkBg.png') center center/cover;
+  border-radius: 20px !important;
 }
 
 @media screen and (max-width: 768px){

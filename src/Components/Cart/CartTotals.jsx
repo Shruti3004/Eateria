@@ -17,11 +17,12 @@ function CartTotals({value}) {
                             </button>
                         </Link>
                     </div>
-                    <div className="col-12 mt-2 col-sm-12 col-md-12 col-lg-12 text-center d-flex justify-content-between">
-                        <div className="font-weight-bold">
+                    <div className="col-12 my-2 col-sm-12 col-md-12 col-lg-12 text-center">
+                        <div className="font-weight-bold text-purple">
                             <img src={orderTaken} alt=""/>
                             &nbsp;&nbsp;Order Taken
                         </div>
+                        <hr/>
                         <div>
                             <p className="small-text text-muted font-weight-bold pb-0 mb-0">
                                 SubTotal:<span className="text-pink">&#8377;&nbsp;{cartSubTotal}</span>&nbsp;

@@ -1,14 +1,18 @@
-import React from 'react'
+import React from 'react';
 import styled from 'styled-components';
-import {Link} from 'react-router-dom';
+// import { ProductContext } from '../context';
+
 
 function PaymentButton() {
+    // const context = useContext(ProductContext);
+    // const {cartTotal} = context;
+    // const handlePayment = () => {
+    //     window.location.href = `http://localhost:5000`
+    // }
     return (
-        <Link to="/pay">
-            <div className="container">
-                <PayButton className=" btn font-weight-bold w-100">Proceed to Pay</PayButton>
-            </div>
-        </Link>
+        <div className="container">
+            <PayButton className=" btn font-weight-bold w-100">Proceed to Pay</PayButton>
+        </div>
     )
 }
 

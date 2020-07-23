@@ -6,7 +6,7 @@ import {ButtonContainer} from './Button';
 
 function Modal() {
     const {modalOpen , closeModal, modalProduct} = useContext(ProductContext);
-    const {img, title, id, price } = modalProduct;
+    const {img, title, price } = modalProduct;
     if(!modalOpen){
         return null;
     }else{

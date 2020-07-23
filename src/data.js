@@ -6,7 +6,7 @@ export const storeProducts = [
     price: 100,
     company: "Samsung",
     time: '20-25 mins',
-    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora autem maxime nesciunt ad dignissimos, animi totam eos quam quasi voluptas iure ratione optio? Repudiandae et autem labore cum libero nisi aut ea blanditiis voluptate. Quod, necessitatibus eligendi nemo ipsum adipisci sint, animi iure amet repudiandae similique rem eveniet voluptatibus cum nostrum placeat quam nisi corrupti! Suscipit ad tempore quisquam deleniti sint adipisci voluptatum modi, excepturi saepe nulla omnis, tempora nam, delectus autem asperiores vero voluptas? At, iste laborum, maiores modi dolorum porro quisquam mollitia reprehenderit quae enim accusamus expedita obcaecati aperiam et rem atque neque quas! Maxime nihil esse tempora?",
+    info: "Aloo Paratha is a delicious shallow fried flaky bread, stuffed with mashed boiled potaoes, grated ginger, cilantro, cut chillies. These crispy prathas are generally fried with ghee.",
     inCart: false,
     count: 0,
     total: 0
@@ -30,7 +30,7 @@ export const storeProducts = [
     price: 120,
     company: "Samsung",
     time: '5-10 mins',
-    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora autem maxime nesciunt ad dignissimos, animi totam eos quam quasi voluptas iure ratione optio? Repudiandae et autem labore cum libero nisi aut ea blanditiis voluptate. Quod, necessitatibus eligendi nemo ipsum adipisci sint, animi iure amet repudiandae similique rem eveniet voluptatibus cum nostrum placeat quam nisi corrupti! Suscipit ad tempore quisquam deleniti sint adipisci voluptatum modi, excepturi saepe nulla omnis, tempora nam, delectus autem asperiores vero voluptas? At, iste laborum, maiores modi dolorum porro quisquam mollitia reprehenderit quae enim accusamus expedita obcaecati aperiam et rem atque neque quas! Maxime nihil esse tempora?",
+    info: "Bread Pakodas are tasty,crunchy deep-fried treats . These are made from paneer slices stuffed with Indian herbs and spices, dipped in gram flour batter and deep fried.They taste perfect with mint chutney .",
     inCart: false,
     count: 0,
     total: 0
@@ -42,7 +42,7 @@ export const storeProducts = [
     price: 60,
     company: "Apple",
     time: '25-30 mins',
-    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora autem maxime nesciunt ad dignissimos, animi totam eos quam quasi voluptas iure ratione optio? Repudiandae et autem labore cum libero nisi aut ea blanditiis voluptate. Quod, necessitatibus eligendi nemo ipsum adipisci sint, animi iure amet repudiandae similique rem eveniet voluptatibus cum nostrum placeat quam nisi corrupti! Suscipit ad tempore quisquam deleniti sint adipisci voluptatum modi, excepturi saepe nulla omnis, tempora nam, delectus autem asperiores vero voluptas? At, iste laborum, maiores modi dolorum porro quisquam mollitia reprehenderit quae enim accusamus expedita obcaecati aperiam et rem atque neque quas! Maxime nihil esse tempora?",
+    info: "Bhatura is classic Indian deep fried puffed bread which is always associated with inseparable masala Chole. It is made from all purpose flour, yeast and vegetable oil. ",
     inCart: false,
     count: 0,
     total: 0
@@ -54,7 +54,7 @@ export const storeProducts = [
     price: 70,
     company: "Asus",
     time: '30-40 mins',
-    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora autem maxime nesciunt ad dignissimos, animi totam eos quam quasi voluptas iure ratione optio? Repudiandae et autem labore cum libero nisi aut ea blanditiis voluptate. Quod, necessitatibus eligendi nemo ipsum adipisci sint, animi iure amet repudiandae similique rem eveniet voluptatibus cum nostrum placeat quam nisi corrupti! Suscipit ad tempore quisquam deleniti sint adipisci voluptatum modi, excepturi saepe nulla omnis, tempora nam, delectus autem asperiores vero voluptas? At, iste laborum, maiores modi dolorum porro quisquam mollitia reprehenderit quae enim accusamus expedita obcaecati aperiam et rem atque neque quas! Maxime nihil esse tempora?",
+    info: "The coffee has a crisp, bright flavor, with subtle hints of citrus and rich chocolates.",
     inCart: false,
     count: 0,
     total: 0
@@ -66,7 +66,7 @@ export const storeProducts = [
     price: 100,
     company: "Apple",
     time: '10-15 mins',
-    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora autem maxime nesciunt ad dignissimos, animi totam eos quam quasi voluptas iure ratione optio? Repudiandae et autem labore cum libero nisi aut ea blanditiis voluptate. Quod, necessitatibus eligendi nemo ipsum adipisci sint, animi iure amet repudiandae similique rem eveniet voluptatibus cum nostrum placeat quam nisi corrupti! Suscipit ad tempore quisquam deleniti sint adipisci voluptatum modi, excepturi saepe nulla omnis, tempora nam, delectus autem asperiores vero voluptas? At, iste laborum, maiores modi dolorum porro quisquam mollitia reprehenderit quae enim accusamus expedita obcaecati aperiam et rem atque neque quas! Maxime nihil esse tempora?",
+    info: "Sandwich Pakodas are tasty,crunchy deep-fried treats . These are made from paneer slices stuffed with Indian herbs and spices, dipped in gram flour batter and deep fried.They taste perfect with mint chutney .",
     inCart: false,
     count: 0,
     total: 0
@@ -78,7 +78,7 @@ export const storeProducts = [
     price: 200,
     company: "Samsung",
     time: '20-25 mins',
-    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora autem maxime nesciunt ad dignissimos, animi totam eos quam quasi voluptas iure ratione optio? Repudiandae et autem labore cum libero nisi aut ea blanditiis voluptate. Quod, necessitatibus eligendi nemo ipsum adipisci sint, animi iure amet repudiandae similique rem eveniet voluptatibus cum nostrum placeat quam nisi corrupti! Suscipit ad tempore quisquam deleniti sint adipisci voluptatum modi, excepturi saepe nulla omnis, tempora nam, delectus autem asperiores vero voluptas? At, iste laborum, maiores modi dolorum porro quisquam mollitia reprehenderit quae enim accusamus expedita obcaecati aperiam et rem atque neque quas! Maxime nihil esse tempora?",
+    info: "Sambar, brimful of the goodness of toovar dal and assorted vegetables, it is nutritious everyday fare and is so versatile that it can be taken with dosa.",
     inCart: false,
     count: 0,
     total: 0
@@ -90,7 +90,7 @@ export const storeProducts = [
     price: 150,
     company: "Huawei",
     time: '30-35 mins',
-    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora autem maxime nesciunt ad dignissimos, animi totam eos quam quasi voluptas iure ratione optio? Repudiandae et autem labore cum libero nisi aut ea blanditiis voluptate. Quod, necessitatibus eligendi nemo ipsum adipisci sint, animi iure amet repudiandae similique rem eveniet voluptatibus cum nostrum placeat quam nisi corrupti! Suscipit ad tempore quisquam deleniti sint adipisci voluptatum modi, excepturi saepe nulla omnis, tempora nam, delectus autem asperiores vero voluptas? At, iste laborum, maiores modi dolorum porro quisquam mollitia reprehenderit quae enim accusamus expedita obcaecati aperiam et rem atque neque quas! Maxime nihil esse tempora?",
+    info: "Idli is a south Indian savory cake popular throughout India. The cakes are made by steaming a batter consisting of fermented black lentils and rice. It is served with Sambhar and chutney.",
     inCart: false,
     count: 0,
     total: 0
@@ -102,7 +102,7 @@ export const storeProducts = [
     price: 40,
     company: "Samsung",
     time: '5-10 mins',
-    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora autem maxime nesciunt ad dignissimos, animi totam eos quam quasi voluptas iure ratione optio? Repudiandae et autem labore cum libero nisi aut ea blanditiis voluptate. Quod, necessitatibus eligendi nemo ipsum adipisci sint, animi iure amet repudiandae similique rem eveniet voluptatibus cum nostrum placeat quam nisi corrupti! Suscipit ad tempore quisquam deleniti sint adipisci voluptatum modi, excepturi saepe nulla omnis, tempora nam, delectus autem asperiores vero voluptas? At, iste laborum, maiores modi dolorum porro quisquam mollitia reprehenderit quae enim accusamus expedita obcaecati aperiam et rem atque neque quas! Maxime nihil esse tempora?",
+    info: "Tea is bright in colour and greater in flavor and freshness, and thus is the most sought after.",
     inCart: false,
     count: 0,
     total: 0
@@ -114,7 +114,7 @@ export const storeProducts = [
     price: 80,
     company: "Huawei",
     time: '15-20 mins',
-    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora autem maxime nesciunt ad dignissimos, animi totam eos quam quasi voluptas iure ratione optio? Repudiandae et autem labore cum libero nisi aut ea blanditiis voluptate. Quod, necessitatibus eligendi nemo ipsum adipisci sint, animi iure amet repudiandae similique rem eveniet voluptatibus cum nostrum placeat quam nisi corrupti! Suscipit ad tempore quisquam deleniti sint adipisci voluptatum modi, excepturi saepe nulla omnis, tempora nam, delectus autem asperiores vero voluptas? At, iste laborum, maiores modi dolorum porro quisquam mollitia reprehenderit quae enim accusamus expedita obcaecati aperiam et rem atque neque quas! Maxime nihil esse tempora?",
+    info: "Vegetable Noodles are madein chinese style by using boiled noodles, stir fried with vegetables like carrots, cabbage, beans with soy sauce.",
     inCart: false,
     count: 0,
     total: 0
@@ -126,7 +126,7 @@ export const storeProducts = [
     price: 50,
     company: "Lenovo",
     time: '30-35 mins',
-    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora autem maxime nesciunt ad dignissimos, animi totam eos quam quasi voluptas iure ratione optio? Repudiandae et autem labore cum libero nisi aut ea blanditiis voluptate. Quod, necessitatibus eligendi nemo ipsum adipisci sint, animi iure amet repudiandae similique rem eveniet voluptatibus cum nostrum placeat quam nisi corrupti! Suscipit ad tempore quisquam deleniti sint adipisci voluptatum modi, excepturi saepe nulla omnis, tempora nam, delectus autem asperiores vero voluptas? At, iste laborum, maiores modi dolorum porro quisquam mollitia reprehenderit quae enim accusamus expedita obcaecati aperiam et rem atque neque quas! Maxime nihil esse tempora?",
+    info: "The creamy flavour of white sauce pasta may tingle your taste buds, pasta with canned diced tomatoes just after it's cooked.",
     inCart: false,
     count: 0,
     total: 0
@@ -138,7 +138,7 @@ export const storeProducts = [
     price: 70,
     company: "Oppo",
     time: '10-20 mins',
-    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora autem maxime nesciunt ad dignissimos, animi totam eos quam quasi voluptas iure ratione optio? Repudiandae et autem labore cum libero nisi aut ea blanditiis voluptate. Quod, necessitatibus eligendi nemo ipsum adipisci sint, animi iure amet repudiandae similique rem eveniet voluptatibus cum nostrum placeat quam nisi corrupti! Suscipit ad tempore quisquam deleniti sint adipisci voluptatum modi, excepturi saepe nulla omnis, tempora nam, delectus autem asperiores vero voluptas? At, iste laborum, maiores modi dolorum porro quisquam mollitia reprehenderit quae enim accusamus expedita obcaecati aperiam et rem atque neque quas! Maxime nihil esse tempora?",
+    info: "Potato patties is a shallow fried cutlet with the boiled and mashed potatoes. The potato patties can be enjoyed as a filling for sandwiches, as a snack with chutney or as burger.",
     inCart: false,
     count: 0,
     total: 0
@@ -150,7 +150,7 @@ export const storeProducts = [
     price: 110,
     company: "Oppo",
     time: '20-25 mins',
-    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora autem maxime nesciunt ad dignissimos, animi totam eos quam quasi voluptas iure ratione optio? Repudiandae et autem labore cum libero nisi aut ea blanditiis voluptate. Quod, necessitatibus eligendi nemo ipsum adipisci sint, animi iure amet repudiandae similique rem eveniet voluptatibus cum nostrum placeat quam nisi corrupti! Suscipit ad tempore quisquam deleniti sint adipisci voluptatum modi, excepturi saepe nulla omnis, tempora nam, delectus autem asperiores vero voluptas? At, iste laborum, maiores modi dolorum porro quisquam mollitia reprehenderit quae enim accusamus expedita obcaecati aperiam et rem atque neque quas! Maxime nihil esse tempora?",
+    info: "A spicy curry of mixed vegetables cooked in a special blend of spices and served with soft buttered",
     inCart: false,
     count: 0,
     total: 0
@@ -162,7 +162,7 @@ export const storeProducts = [
     price: 70,
     company: "Lenovo",
     time: '30-40 mins',
-    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora autem maxime nesciunt ad dignissimos, animi totam eos quam quasi voluptas iure ratione optio? Repudiandae et autem labore cum libero nisi aut ea blanditiis voluptate. Quod, necessitatibus eligendi nemo ipsum adipisci sint, animi iure amet repudiandae similique rem eveniet voluptatibus cum nostrum placeat quam nisi corrupti! Suscipit ad tempore quisquam deleniti sint adipisci voluptatum modi, excepturi saepe nulla omnis, tempora nam, delectus autem asperiores vero voluptas? At, iste laborum, maiores modi dolorum porro quisquam mollitia reprehenderit quae enim accusamus expedita obcaecati aperiam et rem atque neque quas! Maxime nihil esse tempora?",
+    info: "Delight for vegetarians, fresh cooked biryani with chunks of tandoori cottage cheese tikka",
     inCart: false,
     count: 0,
     total: 0
@@ -174,7 +174,7 @@ export const storeProducts = [
     price: 80,
     company: "Huawei",
     time: '20-25 mins',
-    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora autem maxime nesciunt ad dignissimos, animi totam eos quam quasi voluptas iure ratione optio? Repudiandae et autem labore cum libero nisi aut ea blanditiis voluptate. Quod, necessitatibus eligendi nemo ipsum adipisci sint, animi iure amet repudiandae similique rem eveniet voluptatibus cum nostrum placeat quam nisi corrupti! Suscipit ad tempore quisquam deleniti sint adipisci voluptatum modi, excepturi saepe nulla omnis, tempora nam, delectus autem asperiores vero voluptas? At, iste laborum, maiores modi dolorum porro quisquam mollitia reprehenderit quae enim accusamus expedita obcaecati aperiam et rem atque neque quas! Maxime nihil esse tempora?",
+    info: "Hungree Belly adaptation of the Italian classic, flavourful tomato sauce and cheesy",
     inCart: false,
     count: 0,
     total: 0
@@ -186,7 +186,7 @@ export const storeProducts = [
     price: 20,
     company: "Redmi",
     time: '10-15 mins',
-    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora autem maxime nesciunt ad dignissimos, animi totam eos quam quasi voluptas iure ratione optio? Repudiandae et autem labore cum libero nisi aut ea blanditiis voluptate. Quod, necessitatibus eligendi nemo ipsum adipisci sint, animi iure amet repudiandae similique rem eveniet voluptatibus cum nostrum placeat quam nisi corrupti! Suscipit ad tempore quisquam deleniti sint adipisci voluptatum modi, excepturi saepe nulla omnis, tempora nam, delectus autem asperiores vero voluptas? At, iste laborum, maiores modi dolorum porro quisquam mollitia reprehenderit quae enim accusamus expedita obcaecati aperiam et rem atque neque quas! Maxime nihil esse tempora?",
+    info: "Crispy pastry stuffed with spiced potatoes and peas.",
     inCart: false,
     count: 0,
     total: 0
@@ -198,7 +198,7 @@ export const storeProducts = [
     price: 90,
     company: "Redmi",
     time: '25-30 mins',
-    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora autem maxime nesciunt ad dignissimos, animi totam eos quam quasi voluptas iure ratione optio? Repudiandae et autem labore cum libero nisi aut ea blanditiis voluptate. Quod, necessitatibus eligendi nemo ipsum adipisci sint, animi iure amet repudiandae similique rem eveniet voluptatibus cum nostrum placeat quam nisi corrupti! Suscipit ad tempore quisquam deleniti sint adipisci voluptatum modi, excepturi saepe nulla omnis, tempora nam, delectus autem asperiores vero voluptas? At, iste laborum, maiores modi dolorum porro quisquam mollitia reprehenderit quae enim accusamus expedita obcaecati aperiam et rem atque neque quas! Maxime nihil esse tempora?",
+    info: "No sauce, mozzarella, parmesan, garlic, oregano, and olive oil. Made with grande cheese and Caputo blue.",
     inCart: false,
     count: 0,
     total: 0
@@ -210,7 +210,7 @@ export const storeProducts = [
     price: 100,
     company: "Redmi",
     time: '30-40 mins',
-    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora autem maxime nesciunt ad dignissimos, animi totam eos quam quasi voluptas iure ratione optio? Repudiandae et autem labore cum libero nisi aut ea blanditiis voluptate. Quod, necessitatibus eligendi nemo ipsum adipisci sint, animi iure amet repudiandae similique rem eveniet voluptatibus cum nostrum placeat quam nisi corrupti! Suscipit ad tempore quisquam deleniti sint adipisci voluptatum modi, excepturi saepe nulla omnis, tempora nam, delectus autem asperiores vero voluptas? At, iste laborum, maiores modi dolorum porro quisquam mollitia reprehenderit quae enim accusamus expedita obcaecati aperiam et rem atque neque quas! Maxime nihil esse tempora?",
+    info: "Green, cylindrical squash are what most people think of when they think of zucchini, but the color can vary from a solid, deep green, to lighter shades with streaks or blotches of darker green. ",
     inCart: false,
     count: 0,
     total: 0
@@ -222,7 +222,7 @@ export const storeProducts = [
     price: 120,
     company: "Redmi",
     time: '35-40 mins',
-    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora autem maxime nesciunt ad dignissimos, animi totam eos quam quasi voluptas iure ratione optio? Repudiandae et autem labore cum libero nisi aut ea blanditiis voluptate. Quod, necessitatibus eligendi nemo ipsum adipisci sint, animi iure amet repudiandae similique rem eveniet voluptatibus cum nostrum placeat quam nisi corrupti! Suscipit ad tempore quisquam deleniti sint adipisci voluptatum modi, excepturi saepe nulla omnis, tempora nam, delectus autem asperiores vero voluptas? At, iste laborum, maiores modi dolorum porro quisquam mollitia reprehenderit quae enim accusamus expedita obcaecati aperiam et rem atque neque quas! Maxime nihil esse tempora?",
+    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora autem maxime nesciunt ad dignissimos, animi totam eos quam quasi voluptas iure ratione optio? Repudiandae et autem labore cum libero nisi aut ea blanditiis voluptate. Quod, necessitatibus eligendi nemo ipsum.",
     inCart: false,
     count: 0,
     total: 0
@@ -234,7 +234,7 @@ export const storeProducts = [
     price: 90,
     company: "Redmi",
     time: '10-20 mins',
-    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora autem maxime nesciunt ad dignissimos, animi totam eos quam quasi voluptas iure ratione optio? Repudiandae et autem labore cum libero nisi aut ea blanditiis voluptate. Quod, necessitatibus eligendi nemo ipsum adipisci sint, animi iure amet repudiandae similique rem eveniet voluptatibus cum nostrum placeat quam nisi corrupti! Suscipit ad tempore quisquam deleniti sint adipisci voluptatum modi, excepturi saepe nulla omnis, tempora nam, delectus autem asperiores vero voluptas? At, iste laborum, maiores modi dolorum porro quisquam mollitia reprehenderit quae enim accusamus expedita obcaecati aperiam et rem atque neque quas! Maxime nihil esse tempora?",
+    info: "These are deep-fried, very thin, salted slices of potato that are usually served at room temperature. French fries have numerous variants, from thick-cut to shoestring, crinkle, curly and many other names. They are readily available at restaurants or Mac Donald outlets",
     inCart: false,
     count: 0,
     total: 0
@@ -246,7 +246,7 @@ export const storeProducts = [
     price: 90,
     company: "Redmi",
     time: '25-30 mins',
-    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora autem maxime nesciunt ad dignissimos, animi totam eos quam quasi voluptas iure ratione optio? Repudiandae et autem labore cum libero nisi aut ea blanditiis voluptate. Quod, necessitatibus eligendi nemo ipsum adipisci sint, animi iure amet repudiandae similique rem eveniet voluptatibus cum nostrum placeat quam nisi corrupti! Suscipit ad tempore quisquam deleniti sint adipisci voluptatum modi, excepturi saepe nulla omnis, tempora nam, delectus autem asperiores vero voluptas? At, iste laborum, maiores modi dolorum porro quisquam mollitia reprehenderit quae enim accusamus expedita obcaecati aperiam et rem atque neque quas! Maxime nihil esse tempora?",
+    info: "Alternating layers of chocolate cake and chocolate mousse are topped with dark chocolate ganache and finished with a generous sprinkling of chocolate shavings.",
     inCart: false,
     count: 0,
     total: 0

@@ -83,16 +83,18 @@ function ProductList() {
 }else{
     return (
         <>
-            <ErrorMessage>
-                <div className="p-5 bg-danger error-box font-weight-bold">
-                    <h5 className="text-center text-white">Oops!! Seems you haven't logged in.</h5>
-                    <Link to="/login">
-                        <div className="d-flex justify-content-center">
-                            <button className="btn bg-light text-danger font-weight-bold mt-4"><i className="fas fa-arrow-left text-danger" />&nbsp;&nbsp;&nbsp;Back to Login</button>
-                        </div>                        
-                    </Link>
-                </div>                
-            </ErrorMessage>
+            <div className="container">
+                <ErrorMessage>
+                    <div className="p-5 bg-danger error-box font-weight-bold container">
+                        <h5 className="text-center text-white">Oops!! Seems you haven't logged in.</h5>
+                        <Link to="/login">
+                            <div className="d-flex justify-content-center">
+                                <button className="btn bg-light text-danger font-weight-bold mt-4"><i className="fas fa-arrow-left text-danger" />&nbsp;&nbsp;&nbsp;Back to Login</button>
+                            </div>
+                        </Link>
+                    </div>
+                </ErrorMessage>
+            </div>            
         </>
     )
 }

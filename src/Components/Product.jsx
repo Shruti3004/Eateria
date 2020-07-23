@@ -1,10 +1,9 @@
 import React, { useContext } from 'react';
 import styled from 'styled-components';
-import {Link} from 'react-router-dom';
 import { ProductContext } from '../context';
 import icon from '../images/cartIcon.png';
 import PropTypes from 'prop-types';
-
+import {Link} from 'react-router-dom'
 
 
 function Product({product}) {
@@ -18,9 +17,9 @@ function Product({product}) {
                 <div className="img-container" 
                 onClick = {() => {handleDetail(product.id)}}
                 >
-                    {/* <Link to="/details"> */}
-                        <img src={product.img} className="card-img-top img-fluid rounded"/>
-                    {/* </Link> */}
+                    <Link to="/details">
+                        <img src={product.img} className="card-img-top img-fluid rounded" alt="product"/>
+                    </Link>
                     {/* {console.log(product.id)} */}
                     <button className="card-btn btn" 
                         disabled={ product.inCart ? true: false} 

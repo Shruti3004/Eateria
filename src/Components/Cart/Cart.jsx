@@ -14,7 +14,9 @@ function Cart() {
             <>
                 <Navbar />                
                 <CartColumns />  
-                <PaymentButton />
+                <div className="my-4">
+                    <PaymentButton />
+                </div>                
             </>
         )
     }else{

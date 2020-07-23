@@ -11,29 +11,33 @@ function CartColumns() {
     
     return (
         <>
-            <div className="row">                
-                <div className="col-10 mx-auto my-4 text-center text-title">
-                    <h1 className="text-capitalize font-weight-bold text-purple">
-                        <strong>Your Cart</strong>
-                    </h1>
-                </div>
-                <div className="col-12 d-block d-sm-none justify-content-center d-flex">
-                    <img src={cartMobile} alt="" className="img-fluid mb-3"/>
+            
+            <div className="container">
+                <div className="row">                
+                    <div className="col-lg-12 col-md-12 col-sm-12 col-12 my-4 text-center text-title">
+                        <h1 className="font-weight-bold text-purple">
+                            <strong>Your Cart</strong>
+                        </h1>
+                    </div>
+                    <div className="col-12 d-block d-sm-none justify-content-center d-flex">
+                        <img src={cartMobile} alt="" className="img-fluid mb-3"/>
+                    </div>
                 </div>
             </div>
-            <div className="container text-center mt-lg-4 cart-background">
-                <div className="row cart-columns-background rounded mb-4">
-                    <div className="col-lg-5 col-md-6 col-sm-12 col-12"> 
-                        <div className="mx-auto">
-                            <CartList value={context}/>
-                        </div>                                                                       
-                        <CartTotals value={context}/>            
-                    </div>                    
-                    <div className="col-lg-7 col-md-6 col-sm-12 col-12 align-self-center d-none d-md-block">
-                        <img src={cartWomen} alt="" className="align-self-center img-fluid"/>
+            <div className="container mt-lg-4">
+                    <div className="row rounded mb-4 text-center ">
+                        <div className="col-lg-5 col-md-6 col-sm-12 col-12"> 
+                            <div className="pink-bg">
+                                <CartList value={context}/>
+                            </div>                            
+                            <CartTotals value={context}/>            
+                        </div>                    
+                        <div className="col-lg-7 col-md-6 align-self-center d-none d-md-block">
+                            <img src={cartWomen} alt="" className="align-self-center img-fluid"/>
+                        </div>
                     </div>
-                </div>        
-            </div>        
+            </div>
+            {/* <CartList value={context}/> */}
         </>
     )
 }
