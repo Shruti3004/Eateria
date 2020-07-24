@@ -6,6 +6,7 @@ import {Link} from 'react-router-dom';
 import { AuthContext} from '../../Auth';
 import swal from 'sweetalert';
 
+
 function Login(props) {
 
     const [ email, setEmail ] = useState('');
@@ -20,7 +21,7 @@ function Login(props) {
             if(currentUser.emailVerified){
                 props.history.push('/products')
             }else{
-                firebase.logout();
+                firebase.logout();                
             }        
         })
         .catch(error => {

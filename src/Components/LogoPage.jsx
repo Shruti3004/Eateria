@@ -1,23 +1,36 @@
 import React from 'react';
-// import logoText from '.././images/logoText.png';
-// import logoPlate from '.././images/logoPlate.png';
 import logo from '.././images/mainLogo.png';
 import styled from 'styled-components';
 import {Link} from 'react-router-dom';
+// import firebase from './Config/Config'
 
 function LogoPage() {
+
+    // const handleUser = () => {
+    //     firebase.authChange(user => {
+    //         if (user) {
+    //             props.history.push('/products')
+    //         } else {
+    //             props.history.push('/login')
+    //         }
+    //     })
+    // }
+
+    // useEffect(() => {
+    //     handleUser();
+    // }, [])
+
     return (
         <Link to="/login">
-            <LogoContainer>
-                <img src={logo} alt="" className="img-fluid"/>
-                {/* <img src={logoPlate} alt="" className="img-fluid logo-plate"/>
-                <img src={logoText} alt="" className="img-fluid logo-text mt-5"/> */}
+            <LogoContainer >
+                <img src={logo} alt="" className="img-fluid"/>                                
             </LogoContainer>
         </Link>
     )
 }
 
 const LogoContainer = styled.div`
+    cursor: pointer;
     display: flex;
     justify-content: center;
     flex-direction: column;

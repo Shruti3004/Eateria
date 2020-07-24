@@ -100,7 +100,7 @@ function Register(props) {
                                 </div>                                
                                 <ButtonContainer className="background-pink w-100 mt-5" cartBtn><input type="submit" value="Register" className="text-white btn"/></ButtonContainer>
                                 {/* <p className="text-center mt-3">Don't have an Account?</p> */}
-                                <ButtonContainer className="background-pink w-100 mt-2" cartBtn><button onClick={() => {props.history.push('/login')}} className="text-white btn">Login</button></ButtonContainer>
+                                {/* <ButtonContainer className="background-pink w-100 mt-2" cartBtn><button onClick={() => {props.history.push('/login')}} className="text-white btn">Login</button></ButtonContainer> */}
                             </form>
                         </div>
                     </div>

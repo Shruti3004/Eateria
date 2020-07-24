@@ -104,7 +104,6 @@ function ProductList() {
     )
 }
 }
-
 const ErrorMessage = styled.div`
     display: flex;
     justify-content: center;
@@ -116,5 +115,4 @@ const ErrorMessage = styled.div`
         box-shadow: 2px 2px 15px rgba(0,0,0,0.5) !important;
     }
 `
-
 export default withRouter(ProductList)
