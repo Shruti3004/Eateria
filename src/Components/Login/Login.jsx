@@ -34,8 +34,12 @@ function Login(props) {
         )
     }
 
-    const handlePassword = () => {
-        if(email !== null ){
+    const handlePassword = (e) => {
+        e.preventDefault();
+        if (email === "" || password === null) {
+            swal({text: "Enter the valid details", icon: "error",dangerMode: true});
+        }
+        else{
             firebase.resetPassword(email)
             .then(() => {
                 swal({title: "Check your mailbox!!",text: "Password reset link is sent to your mail id", icon: "success"});
@@ -43,8 +47,6 @@ function Login(props) {
             .catch(error => {                                  
                 swal({text: error.message, icon: "error",dangerMode: true});
               });
-        }else{
-            swal({text: "Enter the valid email", icon: "error",dangerMode: true});
         }
     }
 
@@ -58,7 +60,7 @@ function Login(props) {
                             <img src={logo} alt="logo"/>
                         </div>
                         <h4 className="text-center text-purple font-weight-bold">Sign In</h4>
-                        <form onSubmit={handleSubmit}>
+                        <form>
                             <div className="input-group my-4">
                                 <div className="input-group-prepend">
                                     <span className="input-group-text background-pink px-3"><i className="fas fa-envelope text-white"/></span>
@@ -77,7 +79,7 @@ function Login(props) {
                             <div className="d-flex justify-content-end px-0 text-purple">
                                 <button onClick={handlePassword} className="btn text-purple">Forgot password?</button>
                             </div>
-                            <ButtonContainer className="background-pink w-100 mt-5 text-white" cartBtn>
+                            <ButtonContainer className="background-pink w-100 mt-5 text-white" cartBtn onClick={handleSubmit}>
                                 <input type="submit" value="Login" className="text-white btn"/>
                             </ButtonContainer>                            
                             <Link to="/register">

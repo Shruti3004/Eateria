@@ -3,51 +3,62 @@ import { ProductContext } from '../context';
 import Navbar from './Navbar';
 import {Link} from 'react-router-dom';
 import {ButtonContainer} from './Button';
+import styled from 'styled-components';
 
 function Details() {
     const {detailProduct, addToCart, openModal} = useContext(ProductContext);
-    const {id, company, title, img, info, price, inCart} = detailProduct;
+    const {id, category, title, img, info, price, inCart} = detailProduct;
     return (
         <>
         <Navbar />
         <div className="container mb-3"> 
             <div className="row">
-                <div className="col-10 mx-auto text-center text-slanted text-blue my-3">
-                    <h1 className="font-weight-bold text-purple">{title}</h1>
+                <div className="col-12 col-lg-12 col-md-12 col-sm-12 text-center mt-3 mb-2">
+                    <h2 className="font-weight-bold text-purple">{title}</h2>
                 </div>
             </div>
             <div className="row">
-                <div className="col-10 mx-auto col-md-6 my-3">
-                    <img src={img} className="img-fluid" alt="product"/>
+                <div className="col-10 col-sm-10 mx-auto col-md-7 col-lg-7 my-3">
+                    <DetailImage>
+                        <div className="card img-container">
+                            <img src={img} className="img-fluid card-img-top rounded" alt="product"/>
+                        </div>
+                    </DetailImage>                    
                 </div>
-                <div className="col-10 mx-auto col-md-6 text-capitalize my-3">
-                    <h2 className="font-weight-bold text-purple mb-3">model: {title}</h2>
-                    <h4 className="text-purple mb-3">
-                        <strong>Made by: <span className="text-capitalize">{company}</span></strong>
-                    </h4>
-                    <h4 className="text-pink mb-3">
-                        <strong>
-                            price: {price}
-                        </strong>
-                    </h4>
-                    <h5 className="text-capitalize font-weight-bold mb-1 text-purple">
-                        some info about product
+                <div className="col-10 mx-auto col-md-6">                    
+                    <h5 className="font-weight-bold text-center">
+                        {category === "1" ? (<p className="text-success">Vegetarian</p>): (<p className="text-danger">Non-Vegetarian</p>) }
                     </h5>
-                    <p className="text-purple">
+                    <hr className="py-0 my-0"/>
+                    <h5 className="text-purple text-center mt-2">
+                        <strong>
+                            Price: &#8377;{price}
+                        </strong>
+                    </h5>
+                    <hr/>
+                    <h6 className="text-capitalize text-center font-weight-bold mb-1 text-purple">
+                        some info about product
+                    </h6>
+                    <p className="text-muted small-text text-center">
                         {info}
                     </p>
-                    <div>
+                    <hr/>
+                    <div className="d-flex justify-content-center">
+                        <div>
                         <Link to="/products">
-                            <ButtonContainer>Back to Products</ButtonContainer>
+                            <ButtonContainer className="py-1">Back to Products</ButtonContainer>
                         </Link>
                         <ButtonContainer cartBtn 
                         disabled={inCart?true:false} 
                         onClick={() => {
                             addToCart(id);
                             openModal(id);
-                            }}>
-                            {inCart? "In Cart" : "Add to Cart"}
+                        }}
+                        className="py-1"
+                        >
+                        {inCart? "In Cart" : "Add to Cart"}
                         </ButtonContainer>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -56,4 +67,26 @@ function Details() {
     )
 }
 
+const DetailImage = styled.div`
+    .card{
+        border-color: transparent;
+        transition: all 0.4s linear;
+    }
+    &:hover{
+        .card{
+            border: 0.04rem solid rgba(0,0,0,0.2);
+            box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.4);
+        }
+    }
+    .img-container{
+        position: relative;
+        overflow: hidden;
+    }
+    .card-img-top{
+        transition: all 0.4s linear;
+    }
+    .card-img-top:hover{
+        transform: scale(1.2);
+    }
+`
 export default Details
