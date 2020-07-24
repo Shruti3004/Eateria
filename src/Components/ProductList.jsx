@@ -67,11 +67,16 @@ function ProductList() {
                     </div>
                 </div>
                     <div className="row mb-5">
-                        {filteredItems.map(product => {
-                            return (
-                                <Product key={product.id} product={product}/>
-                            )
-                        })}
+                        {filteredItems.length > 0 ? 
+                            (filteredItems.map(product => {
+                                return (
+                                    <Product key={product.id} product={product}/>
+                                )      
+                            }))
+                            :(<h4 className="text-center text-danger font-weight-bold mt-4 px-3 pb-5">
+                                No items matched your search
+                            </h4>)
+                        }
                     </div>
                     <div className="fixed-bottom p-2 fixed-button">
                         <PlaceOrder/>
@@ -85,7 +90,7 @@ function ProductList() {
         <>
             <div className="container">
                 <ErrorMessage>
-                    <div className="p-5 bg-danger error-box font-weight-bold container">
+                    <div className="p-3 bg-danger error-box font-weight-bold container">
                         <h5 className="text-center text-white">Oops!! Seems you haven't logged in.</h5>
                         <Link to="/login">
                             <div className="d-flex justify-content-center">
