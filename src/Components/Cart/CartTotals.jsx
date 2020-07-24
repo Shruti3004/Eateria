@@ -8,40 +8,32 @@ function CartTotals({value}) {
         <>
             <div className="container">
                 <div className="row">
-                    <div className="col-10 mt-2 mx-auto col-sm-8 text-center">
+                    <div className="col-12 mt-2 mx-auto col-sm-12 text-center">
                         <Link to='/products'>
-                            <button className="btn btn-outline-danger my-3 px-4 font-weight-bold" 
+                            <button className="btn btn-outline-danger mt-3 px-4 font-weight-bold" 
                                     type="button"
                                     onClick={() => clearCart()}>
                                 Clear Cart
                             </button>
                         </Link>
-                    </div>
+                    </div>                    
                     <div className="col-12 my-2 col-sm-12 col-md-12 col-lg-12 text-center">
+                        <hr/>
                         <div className="font-weight-bold text-purple">
                             <img src={orderTaken} alt=""/>
                             &nbsp;&nbsp;Order Taken
                         </div>
                         <hr/>
                         <div>
-                            <p className="small-text text-muted font-weight-bold pb-0 mb-0">
-                                SubTotal:<span className="text-pink">&#8377;&nbsp;{cartSubTotal}</span>&nbsp;
-                                Tax: <span className="text-pink">&#8377;&nbsp;{cartTax}</span>
+                            <p className="small-text text-purple font-weight-bold pb-0 mb-0">
+                                SubTotal:<span className="text-pink text-center">&#8377;&nbsp;{cartSubTotal}</span><br/>
+                                Tax: <span className="text-pink text-center">&#8377;&nbsp;{cartTax}</span>
                             </p>
-                            <h5 className="font-weight-bold text-purple">
-                                CartTotal: <span className="text-pink">&#8377;&nbsp;{cartTotal}</span>
+                            <hr/>
+                            <h5 className="font-weight-bold text-purple text-center">
+                                GrandTotal: <span className="text-pink">&#8377;&nbsp;{cartTotal}</span>
                             </h5>                            
-                        </div>
-                        
-                        {/* <h5>
-                            
-                        </h5>
-                        <h5>
-                            
-                        </h5>
-                        <h5>
-                            
-                        </h5> */}
+                        </div>                                                
                     </div>
                 </div>
             </div>   

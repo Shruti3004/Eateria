@@ -44,10 +44,11 @@ function Details() {
                     </p>
                     <hr/>
                     <div className="d-flex justify-content-center">
-                        <div>
                         <Link to="/products">
                             <ButtonContainer className="py-1">Back to Products</ButtonContainer>
                         </Link>
+                    </div>
+                    <div className="d-flex justify-content-center mt-1">
                         <ButtonContainer cartBtn 
                         disabled={inCart?true:false} 
                         onClick={() => {
@@ -58,7 +59,6 @@ function Details() {
                         >
                         {inCart? "In Cart" : "Add to Cart"}
                         </ButtonContainer>
-                        </div>
                     </div>
                 </div>
             </div>

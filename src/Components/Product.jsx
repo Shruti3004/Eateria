@@ -32,7 +32,7 @@ function Product({product}) {
                 </div>
                 <div className="card-footer">
                     <div className="d-flex justify-content-between font-weight-bold mb-0 pb-0">
-                                    <p className="align-self-center mb-0 pb-0 font-weight-bold text-purple">{product.category === "1" ? (<i className="fas fa-dot-circle text-success"/>) : (<i className="fas fa-dot-circle text-danger"/>)}&nbsp;{product.title}<sup>&copy;</sup></p>
+                                    <p className="align-self-center mb-0 pb-0 font-weight-bold text-purple">{product.category === "1" ? (<i className="fas fa-dot-circle text-success"/>) : (<i className="fas fa-dot-circle text-danger"/>)}&nbsp;{product.title}<sup>&reg;</sup></p>
                         <h6 className=" mb-0">
                             <span className="mr-1 font-weight-bold pb-0 text-pink">
                                 &#8377; {product.price}
